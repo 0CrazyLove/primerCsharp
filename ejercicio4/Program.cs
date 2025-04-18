@@ -11,12 +11,13 @@ namespace ejercicio4
         static void Main(string[] args)
         {
             //conditional if + input
-            Console.Write("te gusta miguel-kum? 7W7");
+            Console.WriteLine("te gusto miguel-kum? 7W7");
             string answer = Console.ReadLine();
             if(answer != "si" && answer != "no" || string.IsNullOrWhiteSpace(answer))//el "string.IsNullOrWhiteSpace" 
                 //sirve para verificar si el valor es null (osea si esta vacio)
             {
                 Console.WriteLine("solo dime si o no. Baka 7n7");
+                
 
             } else if(answer == "si")
             {
