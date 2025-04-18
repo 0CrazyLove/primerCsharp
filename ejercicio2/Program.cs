@@ -14,7 +14,7 @@ namespace ejercicio2
             Console.WriteLine("entraras al puti club furry gay trans xxx si tienes mas de 18 años.");
 
             string person = "miguel";
-            int age = 18;
+            int age = 18; //proximamente agregar un input 
 
             if(age < 18)
             {
