@@ -8,9 +8,9 @@ namespace holaMundo
 {
     internal class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello world"); 
+        static void Main(string[] args) {
+        
+            Console.WriteLine("Hello world");  //500k la hora Bv
         }
     }
 }
