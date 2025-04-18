@@ -10,11 +10,11 @@ namespace ejercico6
     {
         //function suma && resta
 
-        static string suma(int a , int b)
+        static string suma(int a, int b)
         {
             return $"la suma de {a} y de {b} es: {a + b}";
-        }  
-        static string resta(int a , int b)
+        }
+        static string resta(int a, int b)
         {
             return $"la resta de {a} y de {b} es: {a - b}";
         }
@@ -25,11 +25,19 @@ namespace ejercico6
             Console.WriteLine("2. resta");
             int option = int.Parse(Console.ReadLine());
 
-            if(option != 1 && option != 2) {
+            if (option != 1 && option != 2)
+            {
                 Console.WriteLine("opcion no valida.");
-               Main(args);
+                Main(args);
 
             }
+            else if (option == 1)
+            {
+                Console.WriteLine("inserte el primer numero: ");
+                int number1 = int.Parse(Console.ReadLine());
+                Console.WriteLine("inserte su segundo numero: ");
+                int number2 = int.Parse(Console.ReadLine());
+                Console.WriteLine(suma(number1, number2));
 
 
 
@@ -44,6 +52,9 @@ namespace ejercico6
 
 
 
+
+            }
         }
     }
 }
+    
