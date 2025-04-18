@@ -14,15 +14,12 @@ namespace ejercicio3
 
             Console.Write("inserte un numero para generar la tabla del 1 al 10: ");
             int number = int.Parse(Console.ReadLine()); //insertar el numero que quieres para la tabla
-            for (int i = 1; i <=10; i++)
+            for (int i = 1; i <= 10; i++)
             {
                 int result = (number * i);
-                    
+
                 Console.WriteLine($"{number} * {i} = {result}");
             }
-
-
-
         }
     }
 }
