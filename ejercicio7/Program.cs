@@ -25,10 +25,10 @@ namespace ejercicio7
             Console.WriteLine(names.Length);
 
 
-
+            //declarando el array para luego asignarle valores
             string[] brawl;
 
-             brawl = new string[3];
+            brawl = new string[3];
             brawl[0]= "pendejo";
             brawl[2]= "tonto";
             brawl[1]= "feo";
