@@ -40,20 +40,16 @@ namespace ejercico6
                 Console.WriteLine(suma(number1, number2));
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+            } else if(option == 2)
+            {
+                Console.WriteLine("inserte el primer numero: ");
+                int number1 = int.Parse(Console.ReadLine());
+                Console.WriteLine("inserte su segundo numero: ");
+                int number2 = int.Parse(Console.ReadLine());
+                Console.WriteLine(resta(number1, number2));
 
             }
+
         }
     }
 }
